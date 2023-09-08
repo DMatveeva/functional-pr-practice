@@ -1,0 +1,2 @@
+c:\Workspace\functional-pr-practice\functional-pr-practice\obj\Debug\net6.0\functional-pr-practice.AssemblyInfoInputs.cache
+c:\Workspace\functional-pr-practice\functional-pr-practice\obj\Debug\net6.0\functional-pr-practice.AssemblyInfo.fs
