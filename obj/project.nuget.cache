@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "476kEJfp3tIvZZveLJUI55SaK9xud0kV4iS2SGTdQb0goLeMtudtedRU2oiXxN5YaybYQX8DZnk3Ek1Ljqsq8A==",
+  "dgSpecHash": "q3oioQFTi0OHsXpplpmfYWKzBVZIe+WWzs3516sydR1Wc2maGIyV0vbGv7w8jKvcRwowPK1omCBU+usyLJEe/A==",
   "success": true,
-  "projectFilePath": "c:\\Workspace\\functional-pr-practice\\functional-pr-practice\\functional-pr-practice.fsproj",
+  "projectFilePath": "C:\\Workspace\\functional-pr-practice\\functional-pr-practice.fsproj",
   "expectedPackageFiles": [
     "C:\\Users\\Дарья\\.nuget\\packages\\fsharp.core\\6.0.7\\fsharp.core.6.0.7.nupkg.sha512"
   ],

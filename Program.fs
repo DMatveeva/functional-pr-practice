@@ -1,2 +1,6 @@
-﻿// For more information see https://aka.ms/fsharp-console-apps
-printfn "Hello from F#"
+﻿module PigLatin
+
+[<EntryPoint>]
+let main(param: string[]) =
+    printfn "Hello, World!%s" "!!"
+    0

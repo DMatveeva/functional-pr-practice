@@ -122,11 +122,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\functional-pr-practice\\functional-pr-practice\\functional-pr-practice.fsproj",
+      "projectUniqueName": "C:\\Workspace\\functional-pr-practice\\functional-pr-practice.fsproj",
       "projectName": "functional-pr-practice",
-      "projectPath": "C:\\Workspace\\functional-pr-practice\\functional-pr-practice\\functional-pr-practice.fsproj",
+      "projectPath": "C:\\Workspace\\functional-pr-practice\\functional-pr-practice.fsproj",
       "packagesPath": "C:\\Users\\Дарья\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\functional-pr-practice\\functional-pr-practice\\obj\\",
+      "outputPath": "C:\\Workspace\\functional-pr-practice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Дарья\\AppData\\Roaming\\NuGet\\NuGet.Config"
