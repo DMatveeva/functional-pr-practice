@@ -6,6 +6,6 @@ let curry (f: int * int -> int)  =
  g
 
 let uncurry g =
- let f(x, y) =
+ let f(x: int, y: int) : int =
    g x y
  f
