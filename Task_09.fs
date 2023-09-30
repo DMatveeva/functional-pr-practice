@@ -19,23 +19,23 @@ let (.-.) x y =
  (dz, ds, dm)
     
 let (.+) x y =
- let (x1: float, x2: float) = x
- let (y1: float, y2: float) = y
+ let (x1: decimal, x2: decimal) = x
+ let (y1: decimal, y2: decimal) = y
  (x1 + y1, x2 + y2)
 
 let (.-) x y =
- let (x1: float, x2: float) = x
- let (y1: float, y2: float) = y
+ let (x1: decimal, x2: decimal) = x
+ let (y1: decimal, y2: decimal) = y
  (x1 - y1, x2 - y2)
 
 let (.*) x y =
- let (a: float, b: float) = x
- let (c: float, d: float) = y
+ let (a: decimal, b: decimal) = x
+ let (c: decimal, d: decimal) = y
  (a * c - b * d, b * c + a * d)
 
 let (./) x y =
- let (a: float, b: float) = x
- let (c: float, d: float) = y
- let n = a * c / (c ** 2 + d ** 2) + b * d / (c ** 2 + d ** 2) 
- let m = b * c / (c ** 2 + d ** 2) - a * d / (c ** 2 + d ** 2)
+ let (a: decimal, b: decimal) = x
+ let (c: decimal, d: decimal) = y
+ let n = a * c / (c * c + d * d) + b * d / (c * c + d * d) 
+ let m = b * c / (c * c + d * d) - a * d / (c * c + d * d)
  (n, m)
