@@ -28,7 +28,7 @@ let (.-) x y =
  let (y1: float, y2: float) = y
  (x1 - y1, x2 - y2)
 
-let (.* ) x y =
+let (.*) x y =
  let (a: float, b: float) = x
  let (c: float, d: float) = y
  (a * c - b * d, b * c + a * d)
