@@ -36,6 +36,6 @@ let (.* ) x y =
 let (./) x y =
  let (a: float, b: float) = x
  let (c: float, d: float) = y
- let d = a * c / (c ** 2 + d ** 2) + b * d / (c ** 2 + d ** 2) 
+ let n = a * c / (c ** 2 + d ** 2) + b * d / (c ** 2 + d ** 2) 
  let m = b * c / (c ** 2 + d ** 2) - a * d / (c ** 2 + d ** 2)
- (d, m)
+ (n, m)
