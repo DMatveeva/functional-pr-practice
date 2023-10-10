@@ -12,7 +12,7 @@ let rec dnto = function
 
 let rec evenn n = 
  let rec evenn_rec = function
-  | m when m >= n -> []
+  | m when n <= 0 -> []
   | m when m = (n - 1) * 2 -> [m]
   | m -> m :: evenn_rec(m + 2)
  evenn_rec 0
