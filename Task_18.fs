@@ -8,9 +8,16 @@ let f n =
 
 // 47.4.2
 let fibo n = 
+ let fib0 = ref 0
+ let fib1 = ref 1
  let fib = ref 0
- let i = ref 0
- while ! i <= n do
-  fib := ! fib + ! i
-  i := ! i + 1
- ! fib
+ let i = ref 2
+ if n > 1 then 
+  while ! i <= n do
+   fib := ! fib0 + ! fib1
+   fib0 := ! fib1
+   fib1 := ! fib
+   i := ! i + 1
+  ! fib 
+ elif n = 0 then 0
+ else 1
