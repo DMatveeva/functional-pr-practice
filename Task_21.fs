@@ -2,16 +2,21 @@ let rec fact = function
  | 0 -> 1
  | n -> n * fact(n - 1)
 
-let fac_seq n = seq {
- for i in 1..n do
-  yield fact i
-}
+let fac_seq =
+ let rec numbers n = seq {
+  yield fact n
+  yield! numbers (n+1)
+ }
+ numbers 0 
 
-let seq_seq n = seq {
- for i in 0..n do
-  if i = 0 then 
+
+let seq_seq =
+ let rec numbers n = seq { 
+  if n = 0 then 
    yield 0
   else 
-   yield -i
-   yield i  
-}
+   yield -n
+   yield n  
+  yield! numbers (n+1) 
+ }
+ numbers 0
